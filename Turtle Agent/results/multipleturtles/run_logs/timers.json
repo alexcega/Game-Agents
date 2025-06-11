@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1749397214",
+        "python_version": "3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:34:57) [MSC v.1936 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\alexc\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn --run-id=multipleturtles --resume",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1749397230"
+    },
+    "total": 16.384468299991568,
+    "count": 1,
+    "self": 0.013366999992285855,
+    "children": {
+        "run_training.setup": {
+            "total": 0.06368079999811016,
+            "count": 1,
+            "self": 0.06368079999811016
+        },
+        "TrainerController.start_learning": {
+            "total": 16.30742050000117,
+            "count": 1,
+            "self": 0.00016539999342057854,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 15.985541900008684,
+                    "count": 1,
+                    "self": 15.985541900008684
+                },
+                "trainer_threads": {
+                    "total": 1.8999999156221747e-06,
+                    "count": 1,
+                    "self": 1.8999999156221747e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.3217112999991514,
+                    "count": 1,
+                    "self": 0.01308640000934247,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.3086248999898089,
+                            "count": 1,
+                            "self": 0.3086248999898089
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

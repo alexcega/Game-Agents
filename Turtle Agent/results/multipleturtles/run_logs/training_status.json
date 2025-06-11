@@ -1,0 +1,56 @@
+{
+    "Turtle": {
+        "checkpoints": [
+            {
+                "steps": 499951,
+                "file_path": "results\\multipleturtles\\Turtle\\Turtle-499951.onnx",
+                "reward": 0.2518347598936247,
+                "creation_time": 1749396744.281791,
+                "auxillary_file_paths": [
+                    "results\\multipleturtles\\Turtle\\Turtle-499951.pt"
+                ]
+            },
+            {
+                "steps": 500015,
+                "file_path": "results\\multipleturtles\\Turtle\\Turtle-500015.onnx",
+                "reward": 0.2518347598936247,
+                "creation_time": 1749396744.3596358,
+                "auxillary_file_paths": [
+                    "results\\multipleturtles\\Turtle\\Turtle-500015.pt"
+                ]
+            },
+            {
+                "steps": 500015,
+                "file_path": "results\\multipleturtles\\Turtle\\Turtle-500015.onnx",
+                "reward": null,
+                "creation_time": 1749397035.5041804,
+                "auxillary_file_paths": [
+                    "results\\multipleturtles\\Turtle\\Turtle-500015.pt"
+                ]
+            },
+            {
+                "steps": 500015,
+                "file_path": "results\\multipleturtles\\Turtle\\Turtle-500015.onnx",
+                "reward": null,
+                "creation_time": 1749397230.5110219,
+                "auxillary_file_paths": [
+                    "results\\multipleturtles\\Turtle\\Turtle-500015.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500015,
+            "file_path": "results\\multipleturtles\\Turtle.onnx",
+            "reward": null,
+            "creation_time": 1749397230.5110219,
+            "auxillary_file_paths": [
+                "results\\multipleturtles\\Turtle\\Turtle-500015.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
