@@ -6,6 +6,7 @@ TagManager:
   tags:
   - goal
   - Wall
+  - puck
   layers:
   - Default
   - TransparentFX
